@@ -1,15 +1,16 @@
-package com.development.centerAt.AppUser.service;
+package com.development.centerAt.appUser.service;
 
-import com.development.centerAt.AppUser.dto.AppUserDto;
-import com.development.centerAt.AppUser.dto.mapper.UserDtoMapper;
-import com.development.centerAt.AppUser.model.AppUser;
-import com.development.centerAt.AppUser.repository.AppUserRepository;
-import com.development.centerAt.AppUser.service.interfaces.AppUserService;
+import com.development.centerAt.appUser.dto.AppUserDto;
+import com.development.centerAt.appUser.dto.mapper.UserDtoMapper;
+import com.development.centerAt.appUser.model.AppUser;
+import com.development.centerAt.appUser.repository.AppUserRepository;
+import com.development.centerAt.appUser.service.interfaces.AppUserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -32,4 +33,11 @@ public class AppUserServiceImpl implements AppUserService {
     public Optional<AppUser> findAppUserByUsername(String username) {
         return appUserRepository.findUserByUsername(username);
     }
+
+    @Override
+    public List<AppUser> getUsers() {
+        return appUserRepository.findAll();
+    }
+
+
 }

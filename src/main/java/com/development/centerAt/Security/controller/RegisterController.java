@@ -1,7 +1,7 @@
-package com.development.centerAt;
+package com.development.centerAt.Security.controller;
 
-import com.development.centerAt.AppUser.dto.AppUserDto;
-import com.development.centerAt.AppUser.service.interfaces.AppUserService;
+import com.development.centerAt.appUser.dto.AppUserDto;
+import com.development.centerAt.appUser.service.interfaces.AppUserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.crypto.password.PasswordEncoder;

@@ -1,7 +1,7 @@
 package com.development.centerAt.Security.service;
 
-import com.development.centerAt.AppUser.model.AppUser;
-import com.development.centerAt.AppUser.repository.AppUserRepository;
+import com.development.centerAt.appUser.model.AppUser;
+import com.development.centerAt.appUser.repository.AppUserRepository;
 import com.development.centerAt.Security.model.AppUserDetails;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;

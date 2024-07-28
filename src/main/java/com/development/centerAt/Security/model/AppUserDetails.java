@@ -1,6 +1,6 @@
 package com.development.centerAt.Security.model;
 
-import com.development.centerAt.AppUser.model.AppUser;
+import com.development.centerAt.appUser.model.AppUser;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

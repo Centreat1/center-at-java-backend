@@ -1,4 +1,4 @@
-package com.development.centerAt.AppUser.dto;
+package com.development.centerAt.appUser.dto;
 
 import jakarta.annotation.Nullable;
 import jakarta.validation.constraints.Email;

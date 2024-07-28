@@ -1,7 +1,7 @@
-package com.development.centerAt.AppUser.dto.mapper;
+package com.development.centerAt.appUser.dto.mapper;
 
-import com.development.centerAt.AppUser.dto.AppUserDto;
-import com.development.centerAt.AppUser.model.AppUser;
+import com.development.centerAt.appUser.dto.AppUserDto;
+import com.development.centerAt.appUser.model.AppUser;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;

@@ -1,6 +1,6 @@
-package com.development.centerAt.AppUser.repository;
+package com.development.centerAt.appUser.repository;
 
-import com.development.centerAt.AppUser.model.AppUser;
+import com.development.centerAt.appUser.model.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

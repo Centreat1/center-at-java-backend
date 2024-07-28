@@ -1,4 +1,4 @@
-package com.development.centerAt.AppUser.model;
+package com.development.centerAt.appUser.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
